@@ -1,0 +1,39 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column; /* Stack image & text inside each card */
+  align-items: center; /* Center content */
+  justify-content: center;
+  width: 250px; /* Square shape */
+  height: 250px; /* Square shape */
+  padding: 20px;
+  background-color: white; /* Optional */
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  text-align: center;
+  flex-basis: 275px;
+  flex-grow: 1;
+  margin: 15px ;
+}
+
+/* Image inside the card */
+.card img {
+  width: 100px; /* Adjust image size */
+  height: 100px;
+  object-fit: cover; /* Prevent distortion */
+  border-radius: 60px;
+}
+
+/* Text inside the card */
+.card h3, 
+.card h4, 
+.card h5 {
+  font-size: 24px;
+  margin: 10px 25px;
+}
