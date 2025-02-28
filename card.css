@@ -19,7 +19,7 @@ flex-wrap: wrap;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
   border-radius: 30px;
   text-align: center;
-  flex-basis: 270px;
+  flex-basis: 290px;
   flex-grow: 1;
   margin: 10px auto ;
 }
