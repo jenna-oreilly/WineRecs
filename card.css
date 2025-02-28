@@ -12,16 +12,16 @@
 flex-wrap: wrap;
   align-items: center; /* Center content */
   justify-content: center;
-  width: 250px; /* Square shape */
-  height: 250px; /* Square shape */
+  width: 300px; /* Square shape */
+  height: 300px; /* Square shape */
   padding: 20px;
   background-color: white; /* Optional */
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
   border-radius: 30px;
   text-align: center;
-  flex-basis: 280px;
+  flex-basis: 275px;
   flex-grow: 1;
-  margin: 20px ;
+  margin: 10px auto ;
 }
 
 /* Image inside the card */
