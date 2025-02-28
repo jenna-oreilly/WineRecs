@@ -21,7 +21,7 @@ flex-wrap: wrap;
   text-align: center;
   flex-basis: 275px;
   flex-grow: 1;
-  margin: 10px auto ;
+  margin: 10px 20px ;
 }
 
 /* Image inside the card */
